@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -23,4 +23,48 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+/* answers */
+/*
+list-style-type: none; 
+also look into removing link color
+*/
+.header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.left-links,
+.right-links {
+  padding: 8px;
+  list-style-type: none;
+  display: flex;
+}
+li {
+  padding: 0px 8px;
+}
+.content {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+button {
+  padding: 8px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: #7a7a7a;
 }
