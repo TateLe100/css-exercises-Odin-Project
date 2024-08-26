@@ -69,19 +69,27 @@ button.cancel {
   color: royalblue;
 }
 
+/* answers */
 .modal {
   display: flex;
-  border: solid black 1px;
+  gap: 16px;
+  padding: 16px;
 }
 .container {
   flex: 1;
-  border: solid black 1px;
 }
-.continue,
-.cancel {
-  margin: 0px;
-  padding: 0px;
-}
+
 .header {
-  /* border: solid black 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.icon {
+  flex-shrink: 0;
+}
+.text {
+  margin-bottom: 10px;
 }
